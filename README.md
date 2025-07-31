@@ -31,32 +31,9 @@ API RESTful para la gestión de eventos, categorías y usuarios. Desarrollada co
 
 ## 🔧 Instalación
 
+Sigue estos pasos para instalar y ejecutar el proyecto:
+
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/HEAM275/Event_Management_API.git
 cd Event_Management_API
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-### 2. Crear la base de datos
--- Opcional, si deseas usar PostgreSQL
-
--- Crear la base de datos en el gestor 
--- cambiar la configuracion por defecto de la base de datos en el archivo settings.py
-
--- Ejecutar las migraciones para crear las tablas en la base de datos
-python manage.py makemigrations (authentication,manager,events)
-python manage.py migrate
-
-### 3. Iniciar el servidor
-python manage.py runserver
-
-### 4. Acceder a la documentación Swagger
-http://localhost:8000/swagger/
-
-### 5. Para ayuda o soporte contactar
-- [email](abreuharold38@gmail.com)
-
-
-
